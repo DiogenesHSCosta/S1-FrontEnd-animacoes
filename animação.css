@@ -3,9 +3,14 @@
     height: 100px;
     background-color: green;
     animation-name: um_efeito;
+    animation-duration: 5s;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-duration: 2s;
     animation-delay: 2s;
+    animation-direction: alternate;
+
+    /* utilização em uma linha só */
+    /* animation: um_efeito 5s linear 2s infinite alternate; */
 }
 
 @keyframes um_efeito {
